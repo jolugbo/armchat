@@ -1,0 +1,23 @@
+page-login {
+text-align: center;
+p{
+    color: color($colors,light);
+}
+.logo{
+    width:30%;
+    height:10%;
+}
+ion-toolbar{
+    text-align: center;
+}
+.toolbar-md{
+    min-height:0px;
+}
+.footer-bg{
+    background-color: black;
+    color: white;
+}
+ion-content{
+    margin-top: 2em;
+}
+}
