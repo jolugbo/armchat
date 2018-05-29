@@ -1,26 +1,34 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+A brief read me about the arm project
 
-## How to use this template
+## Arm Chat Documentation By Olufemi Jolugbo
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+Project Was developed using hybrid technology, dependencies include 
+typescript 
+ionic 3 
+angular 5
+scss
+Firebase
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+*and a lot of will-power :)*.
 
-### With the Ionic CLI:
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+### Project History:
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
+initially i was going to implement this in xamarin, but i came to realise how buggy things could get when you start adding nuget packages, for each nuget package added, a host of other nuget packages come along as dependencies, and the chaining could be quite lengthy, also one needs to monitor the version of each dependecies in contrast to the class/version device been targeted for installation and the SDK configuration available on the development machine. i ended up spending about 5 days on this, resolving one bug after another and meeting tons of other victims online in a similar situation, needless to say i took the easy way out 
 
-Then, to run it, cd into `myBlank` and run:
+Ionic to the rescue
+i decided to take a solution approach instead of a technology approach, using ionic and firebase was quite effective the spead was on-point in delivering the chat messages instantly, and solution came out overnight after a night mixed with redbulls and coffee ( took just a nights work :-), ). Ionic did have its own issues and it was not a straight work in the park but one thing i'll say is there is more power in its community in comparism to the previous tech i used. and that kind of made all the difference
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
 
-Substitute ios for android if not on a Mac.
 
+
+### Installation Guide:
+
+Download APK from [This link](https://drive.google.com/open?id=1KeOG0-ntSGG_qyaRazEHI2N3KxaxUwfF) .  you might need to enable unknown sources on your android device as we are not installing from the play store to, to do that on your device go to Settings >> Lock screen and Security >> Unknown sources
+
+as of the time of deployment only the android version is available untill i am able to get a mac for compiling 
+
+###
+If you have more questions please feel free to contact me via email jolugbofemi@gmail.com
+
+Enjoy
