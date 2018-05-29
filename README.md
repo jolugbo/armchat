@@ -1,12 +1,11 @@
 A brief read me about the arm project
 
 
-<p align="center">
-  <img src="https://drive.google.com/open?id=1M4ZlZo0p4BFgP-reQJezyMWmkQh7NtPb" />
-  <img src="https://drive.google.com/open?id=1VQEiLzXtyeVXZroWY9NX0uyG4R5wfyCF"/>
-  <img src="https://drive.google.com/open?id=1F_4w2NxqgA5Wlb38eFOATFNbHsdr9jgM" />
-  <img src="https://drive.google.com/open?id=1CCRc0wGFxEstzJSJL7Q51JVuI-aZ3YKs"/>
-</p>
+![Alt text](https://github.com/jolugbo/armchat/tree/master/src/assets/screenshots/Screenshot_1.png?raw=true "Login")
+![Alt text](https://github.com/jolugbo/armchat/tree/master/src/assets/screenshots/Screenshot_2.png?raw=true "Chat Page")
+![Alt text](https://github.com/jolugbo/armchat/tree/master/src/assets/screenshots/Screenshot_3.png?raw=true "Login")
+![Alt text](https://github.com/jolugbo/armchat/tree/master/src/assets/screenshots/Screenshot_4.png?raw=true "Chat Page")
+
 # Arm Chat Documentation By Olufemi Jolugbo
 
 Project Was developed using hybrid technology, dependencies include 
