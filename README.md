@@ -3,13 +3,13 @@ A brief read me about the arm project
 ## Arm Chat Documentation By Olufemi Jolugbo
 
 Project Was developed using hybrid technology, dependencies include 
-typescript 
-ionic 3 
-angular 5
-scss
-Firebase
 
-*and a lot of will-power :)*.
+* ionic 3
+* Firebase (for back-end)
+* typescript
+* angular 5
+* scss
+* *and a lot of will-power :)*.
 
 
 ### Project History:
