@@ -1,10 +1,12 @@
 A brief read me about the arm project
 
 
-![Alt text](https://github.com/jolugbo/armchat/tree/master/src/assets/screenshots/Screenshot_1.png?raw=true "Login")
-![Alt text](https://github.com/jolugbo/armchat/tree/master/src/assets/screenshots/Screenshot_2.png?raw=true "Chat Page")
-![Alt text](https://github.com/jolugbo/armchat/tree/master/src/assets/screenshots/Screenshot_3.png?raw=true "Login")
-![Alt text](https://github.com/jolugbo/armchat/tree/master/src/assets/screenshots/Screenshot_4.png?raw=true "Chat Page")
+<p align="center">
+  <img src="https://github.com/jolugbo/armchat/tree/master/src/assets/screenshots/Screenshot_1.png" />
+  <img src="https://github.com/jolugbo/armchat/tree/master/src/assets/screenshots/Screenshot_2.png"/>
+  <img src="https://github.com/jolugbo/armchat/tree/master/src/assets/screenshots/Screenshot_3.png"/>
+  <img src="https://github.com/jolugbo/armchat/tree/master/src/assets/screenshots/Screenshot_4.png" />
+</p>
 
 # Arm Chat Documentation By Olufemi Jolugbo
 
