@@ -2,10 +2,10 @@ A brief read me about the arm project
 
 
 <p align="center">
-  <img src="https://moloyal.com/img/Screenshot_1.png" />
-  <img src="https://moloyal.com/img/Screenshot_2.png"/>
-  <img src="https://moloyal.com/img/Screenshot_3.png"/>
-  <img src="https://moloyal.com/img/Screenshot_4.png" />
+  <img src="https://moloyal.com/img/Screenshot_1.png" style="max-width: 30%  !important"/>
+  <img src="https://moloyal.com/img/Screenshot_2.png" style="max-width: 30%  !important"/>
+  <img src="https://moloyal.com/img/Screenshot_3.png" style="max-width: 30%  !important"/>
+  <img src="https://moloyal.com/img/Screenshot_4.png" style="max-width: 30%  !important"/>
 </p>
 
 # Arm Chat Documentation By Olufemi Jolugbo
