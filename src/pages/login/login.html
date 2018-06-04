@@ -1,15 +1,17 @@
 <ion-header>
 
-<ion-toolbar color="secondary">
+  <ion-toolbar color="secondary">
     <img src="assets/imgs/logo.png" class="logo" />
   </ion-toolbar>
   <ion-toolbar color="secondary">
     <h2>Chat Application</h2>
   </ion-toolbar>
 </ion-header>
-<ion-content>
+<ion-content padding>
   <ion-item>
-    <ion-label color="danger">Email <Address></Address></ion-label>
+    <ion-label color="danger">Email
+      <Address></Address>
+    </ion-label>
     <ion-input type="email" [(ngModel)]="loginData.email" name="emailAdd" required></ion-input>
   </ion-item>
 
@@ -17,12 +19,15 @@
     <ion-label color="danger">Password</ion-label>
     <ion-input type="password" [(ngModel)]="loginData.password" name="password" required></ion-input>
   </ion-item>
-  <button ion-button round full color="secondary" outline (click)="signIn()">Sign in</button>
+  <button ion-button clear class="forgot-password" (click)="passwordReset()">forgot password?</button>
+  <button ion-button round full color="secondary" outline (click)="signIn()">Sign in &nbsp;&nbsp;
+    <ion-icon name="md-log-in"></ion-icon>
+  </button>
   <button ion-button round full color="secondary" outline (click)="Register()">Register</button>
   <p>Register an account using a valid email address</p>
 </ion-content>
 <ion-footer>
-  <ion-toolbar >
+  <ion-toolbar>
     <ion-title class="footer-bg">ARM &copy; 2018</ion-title>
   </ion-toolbar>
 </ion-footer>

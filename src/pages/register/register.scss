@@ -6,4 +6,11 @@ ion-input{
 p{
     color:color($colors,primary);
 }
+.item-md.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) 
+.item-inner, .item-md.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) 
+.item-inner{
+    background-color: transparent;
+    border-bottom-color: transparent;
+    box-shadow: inset 0 -1px 0 0 transparent;
+}
 }

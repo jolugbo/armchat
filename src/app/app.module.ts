@@ -7,6 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { HttpModule } from '@angular/http';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import {ResetPage} from '../pages/reset/reset';
 import { AngularFireModule } from 'angularfire2';
 import { ChatPage } from '../pages/chat/chat';
 import { LoginPage } from '../pages/login/login';
@@ -33,6 +34,7 @@ const firebaseAuth = {
     HomePage,
     ChatPage,
     LoginPage,
+    ResetPage,
     HomePage,
     RegisterPage,
     //AngularFireModule.initializeApp(environment.firebase),
@@ -51,6 +53,7 @@ const firebaseAuth = {
     MyApp,
     HomePage,
     LoginPage,
+    ResetPage,
     ChatPage,
     RegisterPage,
   ],
