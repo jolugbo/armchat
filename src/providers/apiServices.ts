@@ -4,6 +4,8 @@ import 'rxjs/add/operator/map';
 //import { Promise_Instance } from 'firebase/app';
 import { utilServices } from 'util';
 import { Header } from 'ionic-angular';
+import {AngularFireAuth} from 'angularfire2/auth';
+//import { AngularFirestore } from 'angularfire2/firestore';
 
 let _API_URL_FOR = {
     Login: "http://www.avantesoft.com/thrift/api/",

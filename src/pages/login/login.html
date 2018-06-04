@@ -1,8 +1,5 @@
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>Sign into App</ion-title>
-  </ion-navbar>
 <ion-toolbar color="secondary">
     <img src="assets/imgs/logo.png" class="logo" />
   </ion-toolbar>
@@ -20,12 +17,12 @@
     <ion-label color="danger">Password</ion-label>
     <ion-input type="password" [(ngModel)]="loginData.password" name="password" required></ion-input>
   </ion-item>
-  <button ion-button full color="secondary" (click)="signIn()">Sign in</button>
-  <button ion-button full color="secondary" (click)="Register()">Register</button>
+  <button ion-button round full color="secondary" (click)="signIn()">Sign in</button>
+  <button ion-button round full color="secondary" (click)="Register()">Register</button>
   <p>Register an account using a valid email address</p>
 </ion-content>
 <ion-footer>
   <ion-toolbar >
-    <ion-title class="footer-bg">ARM (C) 2018</ion-title>
+    <ion-title class="footer-bg">ARM &copy; 2018</ion-title>
   </ion-toolbar>
 </ion-footer>

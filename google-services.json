@@ -1,0 +1,142 @@
+{
+  "project_info": {
+    "project_number": "545985851057",
+    "firebase_url": "https://arm-chat-app.firebaseio.com",
+    "project_id": "arm-chat-app",
+    "storage_bucket": "arm-chat-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545985851057:android:d7e3d2eb16813396",
+        "android_client_info": {
+          "package_name": "Arm_Chat.Arm_Chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545985851057-klkjkm37s1jd234k1c8vg6h1dmdr778p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "Arm_Chat.Arm_Chat",
+            "certificate_hash": "7862e7f5118e0009650151cb50a90e60a536ddc2"
+          }
+        },
+        {
+          "client_id": "545985851057-p6gck5vi6eaq95u8nivmh561lk67dekh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "545985851057-p6gck5vi6eaq95u8nivmh561lk67dekh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhZM_MiV3bRbORZ4TUH25I6eNAZQxJktU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545985851057-p6gck5vi6eaq95u8nivmh561lk67dekh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545985851057:android:79ed56b103be60cb",
+        "android_client_info": {
+          "package_name": "Arm_Chat_Proj.Arm_Chat_Proj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545985851057-tglkil8v1lprb5rf1oenh2tjvn4g4lhd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "Arm_Chat_Proj.Arm_Chat_Proj",
+            "certificate_hash": "7862e7f5118e0009650151cb50a90e60a536ddc2"
+          }
+        },
+        {
+          "client_id": "545985851057-p6gck5vi6eaq95u8nivmh561lk67dekh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "545985851057-p6gck5vi6eaq95u8nivmh561lk67dekh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhZM_MiV3bRbORZ4TUH25I6eNAZQxJktU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545985851057-p6gck5vi6eaq95u8nivmh561lk67dekh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545985851057:android:7155ff9685df735a",
+        "android_client_info": {
+          "package_name": "com.arm.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545985851057-p6gck5vi6eaq95u8nivmh561lk67dekh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "545985851057-p6gck5vi6eaq95u8nivmh561lk67dekh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhZM_MiV3bRbORZ4TUH25I6eNAZQxJktU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

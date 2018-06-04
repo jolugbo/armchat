@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 import { utilServices } from '../../providers/util';
-import {Platform} from 'ionic-angular';
+import {Events} from 'ionic-angular';
 import { LoginPage } from '../login/login';
 
 
@@ -18,7 +18,7 @@ export class ChatPage {
   _chatSubscription;
   messages: object[] = [];
 
-  constructor(public db: AngularFireDatabase,private platform: Platform,
+  constructor(public db: AngularFireDatabase,private event: Events,
     public navCtrl: NavController, public navParams: NavParams,private utils:utilServices) {
       this.username = this.navParams.get('username');
       this._chatSubscription = this.db.list('/chat').subscribe( data => {
@@ -38,22 +38,23 @@ export class ChatPage {
     }
 
     ionViewDidLoad() {
-      this.db.list('/chat').push({
+     /* this.db.list('/chat').push({
         specialMessage: true,
         message: `${this.username} is available for chat`
-      });
+      });*/
     }
 
     ionViewWillLeave(){
-      this._chatSubscription.unsubscribe();
+     /* this._chatSubscription.unsubscribe();
       this.db.list('/chat').push({
         specialMessage: true,
         message: `${this.username} has left the room`
-      });
+      });*/
     }
     exitApp(){
       this.utils.localSave('login', false);
+      this.utils.localSave('loginUser',null);
       this.navCtrl.setRoot(LoginPage);
-      this.platform.exitApp();
+      this.event.publish('user:logout');
   }
   }
