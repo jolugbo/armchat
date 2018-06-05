@@ -32,7 +32,7 @@ export class ChatPage {
         message: this.message
       }).then( () => {
       }).catch( () => { 
-        this.utils.presentAlert('Message sent Failure', 'Looks like something is went wrong,\n check internet! ');
+        this.utils.presentAlert('Message sent Failure', 'Looks like something went wrong,\n check internet! ');
       });
       this.message = '';
     }

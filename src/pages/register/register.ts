@@ -41,14 +41,6 @@ export class RegisterPage {
     });
     theAlert.present();
   }
-  getAccTypes(){
-    this.apiServices.getAcctTypes().then((result) => {
-      this.responseData = result;
-      if (!this.responseData.error) {
-        console.log(this.responseData);
-      }
-    });
-  }
 
   registerAccount(){
     this.afAuth.auth.createUserWithEmailAndPassword(this.reg.email,this.reg.password)

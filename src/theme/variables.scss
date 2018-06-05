@@ -44,7 +44,8 @@ $colors: (
   secondary:  #602144,
   danger:     #FFA500,
   light:      #C9DCB3,
-  dark:       #555358
+  dark:       #555358,
+  myMsg: #8bc34a,
 );
 
 
@@ -92,6 +93,6 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
-$font-family-md-base: "PasseroOne-Regular";
-$font-family-ios-base: "PasseroOne-Regular";
-$font-family-wp-base: "PasseroOne-Regular";
+$font-family-md-base: "Montserrat-Regular";
+//$font-family-ios-base: "PasseroOne-Regular";
+//$font-family-wp-base: "PasseroOne-Regular";

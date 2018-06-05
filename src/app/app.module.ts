@@ -17,6 +17,7 @@ import { utilServices } from '../providers/util';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { IonicStorageModule } from '@ionic/storage';
 import { AngularFireAuthModule } from 'angularfire2/auth';
+import { Push } from '@ionic-native/push';
 
 //set backend config details
 const firebaseAuth = {
@@ -61,6 +62,7 @@ const firebaseAuth = {
     StatusBar,
     SplashScreen,
     apiServices,
+    Push,
     utilServices,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
