@@ -7,7 +7,6 @@ Ionic pages and navigation.
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Chat</ion-title>
     <ion-buttons end>
       <button ion-button icon-only (click)="exitApp()">
           Exit
@@ -24,7 +23,8 @@ Ionic pages and navigation.
   <div id="chatMessages">
     <div *ngFor="let message of messages" [class]="message.specialMessage ? 'message special' : 'message'">
       <div [class]="message.username == username ? 'innerMessage messageRight' : 'innerMessage messageLeft'">
-        <div class="username">{{ message.username }}</div>
+        <div class="username">
+          {{ message.username  }}</div>
         <div class="messageContent">{{ message.message }}</div>
       </div>
     </div>
@@ -36,7 +36,11 @@ Ionic pages and navigation.
   <ion-toolbar>
     <div id="footer">
       <div class="elem"><ion-input type="text" [(ngModel)]="message"></ion-input></div>
-      <div class="elem"><button ion-button icon-only (click)="sendMessage()"><ion-icon name="send"></ion-icon> </button></div>
+      <div class="elem">
+        <button ion-button icon-only (click)="sendMessage()">
+        <ion-icon name="send" style="color: green;"></ion-icon> 
+      </button>
+    </div>
     </div>
   </ion-toolbar>
 </ion-footer>

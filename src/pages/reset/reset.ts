@@ -24,11 +24,12 @@ export class ResetPage {
   }
   resetPassword(){
     this.afAuth.auth.sendPasswordResetEmail(this.email).then((data) => {
-      console.log(data);
+           this.utils.presentAlert('Reset Completed!', "please check your mail");
     })
     .catch(error => {
       console.log(error);
-      this.utils.presentAlert('Login Failed!', error.message);
+      this.utils.presentAlert('Reset Failed!', error.message);
+       //this.navCtrl.setRoot(LoginPage);
     });
 
   }

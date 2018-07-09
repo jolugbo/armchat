@@ -1,7 +1,8 @@
 page-login {
 text-align: center;
 p{
-    color: color($colors,secondary);
+    color: color($colors,secondary);    
+    font-size: 21px;
 }
 .logo{
     width:30%;
@@ -34,5 +35,12 @@ ion-content{
     font-size: 11px;
     float: right;
     text-transform: lowercase;
+}
+ion-item{
+    background-color:rgba(95, 94, 74, 0.6274) !important;
+}
+.button-outline-md-secondary{
+    font-size: 20px;
+    font-weight: bolder;
 }
 }

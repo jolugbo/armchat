@@ -2,7 +2,7 @@ page-chat {
 	.innerMessage {
 		display: inline-block;
 		padding: 5px 10px;
-		background: #5191a0;
+		background: #c1c1c1;
 		margin: 5px;
 		color: white;
     border-radius: 10%;
@@ -12,7 +12,10 @@ page-chat {
 	}
 	.username {
 		font-weight: bold;
-		font-size: 80%;
+		color: #F44336;
+	}
+	.messageRight .username{
+		color:#3f51b5;
 	}
 	.message {
 		font-size: 120%;
@@ -57,10 +60,14 @@ page-chat {
 	}
 	.messageRight {
 		float: right;
+		text-align: right;
 	}
-
-	.message.special .innerMessage .messageContent{
-		background: white;
+	.messageRight .messageContent{
+		text-align: right;
+	}
+	 .messageContent{
+		color: black;
+		margin-top: 10px;
 		display: inline-block;
 		padding: 0 10px;
 	}
@@ -85,5 +92,8 @@ page-chat {
 		float: none;
 		text-align: center;
 		position: relative;
+	}
+	.button-default{
+		background-color: #8bc34a;
 	}
 }

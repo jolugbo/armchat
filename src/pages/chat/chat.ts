@@ -21,8 +21,17 @@ export class ChatPage {
   constructor(public db: AngularFireDatabase,private event: Events,
     public navCtrl: NavController, public navParams: NavParams,private utils:utilServices) {
       this.username = this.navParams.get('username');
+      //var str = "femi@gmail.com"; 
+       //var n = this.username.search("@");
+       //this.username= this.username.slice(0, n);
       this._chatSubscription = this.db.list('/chat').subscribe( data => {
         this.messages = data;
+        for (let entry of this.messages) {
+          if(entry["username"])
+           var n = entry["username"].search("@");
+           if (!entry["username"] || !entry["username"].length) { continue; }
+           entry["username"]= entry["username"].slice(0, n);
+      }
       });
     }
 

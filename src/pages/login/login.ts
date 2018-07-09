@@ -21,6 +21,7 @@ import { Modal, ModalController } from 'ionic-angular';
 })
 export class LoginPage {
   responseData: any;
+  username:string;
   loginData = {
     email: '',
     password: ''
@@ -33,7 +34,6 @@ export class LoginPage {
     agentid: '',
     token: ''
   }
-
   constructor(public navCtrl: NavController, private alertCtrl: AlertController,
     public navParams: NavParams,private afAuth: AngularFireAuth,
     public utils: utilServices, private modal: ModalController) {
@@ -56,12 +56,14 @@ export class LoginPage {
   signIn() {
     this.afAuth.auth.signInWithEmailAndPassword(this.loginData.email, this.loginData.password)
       .then((data) => {
-        console.log(this.afAuth.auth.currentUser);
-        this.utils.presentAlert('Login Successful!', 'welcome ' + this.afAuth.auth.currentUser.email);
+        this.username = this.afAuth.auth.currentUser.email;
+        let n = this.username.search("@");
+        let user= this.username.slice(0, n);
+        this.utils.presentAlert('Login Successful!', 'welcome ' + user);
         this.utils.localSave('loginUser', this.afAuth.auth.currentUser.email);
         this.utils.localSave('login', true);
         this.navCtrl.setRoot(ChatPage, {
-          username: this.afAuth.auth.currentUser.email
+          username: user
         });
       })
       .catch(error => {
